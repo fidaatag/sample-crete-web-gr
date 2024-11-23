@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
 	const [isScrolled, setIsScrolled] = useState(false);
@@ -20,9 +21,9 @@ const Navbar = () => {
 			<nav className={`fixed py-3 w-full flex flex-wrap md:grid md:grid-cols-12 basis-full items-center px-4 md:px-20 mx-auto transition-all duration-300 ${isScrolled ? "bg-white" : "bg-transparent"
 				}`}>
 				<div className="md:col-span-3">
-					<a className="flex-none rounded-xl text-xl inline-block font-semibold focus:outline-none focus:opacity-80 w-48" href="/" aria-label="logo">
+					<Link className="flex-none rounded-xl text-xl inline-block font-semibold focus:outline-none focus:opacity-80 w-48" href="/" aria-label="logo">
 						<img className="w-full object-cover py-2" src={isScrolled ? "./Logo_black.png" : "./Logo_white.png" } alt="" />
-					</a>
+					</Link>
 				</div>
 
 				<div className="flex items-center gap-x-1 md:gap-x-2 ms-auto py-1 md:ps-6 md:order-3 md:col-span-3">
@@ -57,13 +58,13 @@ const Navbar = () => {
 							<a className={`relative inline-block text-black focus:outline-none before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-green-900 dark:${isScrolled ? "text-gray-700" : "text-white"}`} href="#" aria-current="page">Work</a>
 						</div> */}
 						<div>
-							<a className={`inline-block text-black hover:${isScrolled ? "text-cyan-600" : "text-cyan-200" } focus:outline-none focus:text-cyan-100 dark:${isScrolled ? "text-gray-700" : "text-white"}`} href="/catalog-">Catalog</a>
+							<Link className={`inline-block text-black hover:${isScrolled ? "text-cyan-600" : "text-cyan-200" } focus:outline-none focus:text-cyan-100 dark:${isScrolled ? "text-gray-700" : "text-white"}`} href="/catalog-">Catalog</Link>
 						</div>
 						<div>
-							<a className={`inline-block text-black hover:${isScrolled ? "text-cyan-600" : "text-cyan-200" } focus:outline-none focus:text-gray-600 dark:${isScrolled ? "text-gray-700" : "text-white"}`} href="#">Travel Guide</a>
+							<Link className={`inline-block text-black hover:${isScrolled ? "text-cyan-600" : "text-cyan-200" } focus:outline-none focus:text-gray-600 dark:${isScrolled ? "text-gray-700" : "text-white"}`} href="#">Travel Guide</Link>
 						</div>
 						<div>
-							<a className={`inline-block text-black hover:${isScrolled ? "text-cyan-600" : "text-cyan-200" } focus:outline-none focus:text-gray-600 dark:${isScrolled ? "text-gray-700" : "text-white"}`} href="#">Comunity Hub</a>
+							<Link className={`inline-block text-black hover:${isScrolled ? "text-cyan-600" : "text-cyan-200" } focus:outline-none focus:text-gray-600 dark:${isScrolled ? "text-gray-700" : "text-white"}`} href="#">Comunity Hub</Link>
 						</div>
 					</div>
 				</div>
