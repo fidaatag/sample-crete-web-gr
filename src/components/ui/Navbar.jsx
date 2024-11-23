@@ -57,7 +57,7 @@ const Navbar = () => {
 							<a className={`relative inline-block text-black focus:outline-none before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-green-900 dark:${isScrolled ? "text-gray-700" : "text-white"}`} href="#" aria-current="page">Work</a>
 						</div> */}
 						<div>
-							<a className={`inline-block text-black hover:${isScrolled ? "text-cyan-600" : "text-cyan-200" } focus:outline-none focus:text-cyan-100 dark:${isScrolled ? "text-gray-700" : "text-white"}`} href="/catalog">Catalog</a>
+							<a className={`inline-block text-black hover:${isScrolled ? "text-cyan-600" : "text-cyan-200" } focus:outline-none focus:text-cyan-100 dark:${isScrolled ? "text-gray-700" : "text-white"}`} href="/catalog-">Catalog</a>
 						</div>
 						<div>
 							<a className={`inline-block text-black hover:${isScrolled ? "text-cyan-600" : "text-cyan-200" } focus:outline-none focus:text-gray-600 dark:${isScrolled ? "text-gray-700" : "text-white"}`} href="#">Travel Guide</a>
