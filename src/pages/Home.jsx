@@ -3,7 +3,7 @@ import CtaBussines from "../components/ui/CtaBussines"
 // import Footer from "../components/ui/Footer"
 import Gallery from "../components/ui/Gallery"
 import Hero from "../components/ui/Hero"
-// import HeroFlex from "../components/ui/HeroFlex"
+import HeroFlex from "../components/ui/HeroFlex"
 // import HeroVideo from "../components/ui/HeroVideo"
 import SpillAgencyGuide from "../components/ui/SpillAgencyGuide"
 import SpillCatalog from "../components/ui/SpillCatalog"
@@ -19,7 +19,7 @@ const Home = () => {
       {/* <HeroVideo /> */}
       <SpillCategory />
       <SpillCatalog />
-      {/* <HeroFlex /> */}
+      <HeroFlex />
       <SpillSelfGuide />
       <SpillAgencyGuide />
       <Gallery />
