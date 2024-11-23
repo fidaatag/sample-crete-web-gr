@@ -4,22 +4,22 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const SpillCategory = () => {
   const dataCatalog = [
-    { title: "Cafe", bgImage: "src/assets/hero-1.jpg" },
-    { title: "Sport", bgImage: "src/assets/hero-2.jpg" },
-    { title: "Station", bgImage: "src/assets/hero-3.jpg" },
-    { title: "Book", bgImage: "src/assets/hero-1.jpg" },
-    { title: "Cafe", bgImage: "src/assets/hero-1.jpg" },
-    { title: "Sport", bgImage: "src/assets/hero-2.jpg" },
-    { title: "Station", bgImage: "src/assets/hero-3.jpg" },
-    { title: "Book", bgImage: "src/assets/hero-1.jpg" },
-    { title: "Cafe", bgImage: "src/assets/hero-1.jpg" },
-    { title: "Sport", bgImage: "src/assets/hero-2.jpg" },
-    { title: "Station", bgImage: "src/assets/hero-3.jpg" },
-    { title: "Book", bgImage: "src/assets/hero-1.jpg" },
-    { title: "Cafe", bgImage: "src/assets/hero-1.jpg" },
-    { title: "Sport", bgImage: "src/assets/hero-2.jpg" },
-    { title: "Station", bgImage: "src/assets/hero-3.jpg" },
-    { title: "Book", bgImage: "src/assets/hero-1.jpg" },
+    { title: "Cafe", bgImage: "./hero-1.jpg" },
+    { title: "Sport", bgImage: "./hero-2.jpg" },
+    { title: "Station", bgImage: "./hero-3.jpg" },
+    { title: "Book", bgImage: "./hero-1.jpg" },
+    { title: "Cafe", bgImage: "./hero-1.jpg" },
+    { title: "Sport", bgImage: "./hero-2.jpg" },
+    { title: "Station", bgImage: "./hero-3.jpg" },
+    { title: "Book", bgImage: "./hero-1.jpg" },
+    { title: "Cafe", bgImage: "./hero-1.jpg" },
+    { title: "Sport", bgImage: "./hero-2.jpg" },
+    { title: "Station", bgImage: "./hero-3.jpg" },
+    { title: "Book", bgImage: "./hero-1.jpg" },
+    { title: "Cafe", bgImage: "./hero-1.jpg" },
+    { title: "Sport", bgImage: "./hero-2.jpg" },
+    { title: "Station", bgImage: "./hero-3.jpg" },
+    { title: "Book", bgImage: "./hero-1.jpg" },
   ];
 
   const [startIndex, setStartIndex] = useState(0); // For desktop

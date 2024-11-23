@@ -21,7 +21,7 @@ const Navbar = () => {
 				}`}>
 				<div className="md:col-span-3">
 					<a className="flex-none rounded-xl text-xl inline-block font-semibold focus:outline-none focus:opacity-80 w-48" href="/" aria-label="logo">
-						<img className="w-full object-cover py-2" src={isScrolled ? "src/assets/Logo_black.png" : "src/assets/Logo_white.png" } alt="" />
+						<img className="w-full object-cover py-2" src={isScrolled ? "./Logo_black.png" : "./Logo_white.png" } alt="" />
 					</a>
 				</div>
 

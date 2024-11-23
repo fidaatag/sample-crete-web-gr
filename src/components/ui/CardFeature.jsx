@@ -3,7 +3,7 @@ const CardFeature = ({ title, desc }) => {
       <div className="flex flex-col gap-5 mt-4 lg:mt-0">
         <div className="w-full">
           <img
-            src="src/assets/hero-1.jpg"
+            src="./hero-1.jpg"
             className="w-full h-full object-cover rounded-lg"
             alt=""
           />

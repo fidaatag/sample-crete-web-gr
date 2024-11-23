@@ -13,7 +13,7 @@ const Footer = () => {
 
           <div>
             <div className="w-40">
-              <img src="src/assets/Logo_black.png" className="w-full h-full object-cover" alt="" />
+              <img src="./Logo_black.png" className="w-full h-full object-cover" alt="" />
             </div>
             <p className="mt-2 text-base max-w-50">Discover Creta: Your Ultimate Travel Guide</p>
           </div>

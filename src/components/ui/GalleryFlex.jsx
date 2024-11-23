@@ -11,16 +11,16 @@ const Gallery = () => {
                 <div className="flex flex-col gap-7">
                     {/* tinggi : 2/3  lebar : full */}
                     <div className='rounded-lg'>
-                        <img src="src/assets/hero-1.jpg" className='w-full h-full object-cover rounded-lg' alt="" />
+                        <img src="./hero-1.jpg" className='w-full h-full object-cover rounded-lg' alt="" />
                     </div>
 
                     {/* tinggi : 1/3  lebar : flex 2 item  */}
                     <div className="flex gap-7">
                         <div className='rounded-lg'>
-                            <img src="src/assets/hero-1.jpg" className='w-full h-full object-cover rounded-lg' alt="" />
+                            <img src="./hero-1.jpg" className='w-full h-full object-cover rounded-lg' alt="" />
                         </div>
                         <div className='rounded-lg'>
-                            <img src="src/assets/hero-1.jpg" className='w-full h-full object-cover rounded-lg' alt="" />
+                            <img src="./hero-1.jpg" className='w-full h-full object-cover rounded-lg' alt="" />
                         </div>
                     </div>
                 </div>
@@ -30,13 +30,13 @@ const Gallery = () => {
                 {/* tinggi : bagi 3  lebar : full -- jadi ukuran 2 colum untuk 3 item, ukuran item mengikuti parentnya tidak boleh lebih tinggi dari parent */}
                 <div className="hidden lg:flex flex-col gap-7">
                     <div className='rounded-lg'>
-                        <img src="src/assets/hero-1.jpg" className='w-full h-full object-cover rounded-lg' alt="" />
+                        <img src="./hero-1.jpg" className='w-full h-full object-cover rounded-lg' alt="" />
                     </div>
                     <div className='rounded-lg'>
-                        <img src="src/assets/hero-1.jpg" className='w-full h-full object-cover rounded-lg' alt="" />
+                        <img src="./hero-1.jpg" className='w-full h-full object-cover rounded-lg' alt="" />
                     </div>
                     <div className='rounded-lg'>
-                        <img src="src/assets/hero-1.jpg" className='w-full h-full object-cover rounded-lg' alt="" />
+                        <img src="./hero-1.jpg" className='w-full h-full object-cover rounded-lg' alt="" />
                     </div>
                 </div>
 
@@ -46,15 +46,15 @@ const Gallery = () => {
                     {/* tinggi : 1/3  lebar : flex 2 item  */}
                     <div className="flex gap-7">
                         <div className='rounded-lg'>
-                            <img src="src/assets/hero-1.jpg" className='w-full h-full object-cover rounded-lg' alt="" />
+                            <img src="./hero-1.jpg" className='w-full h-full object-cover rounded-lg' alt="" />
                         </div>
                         <div className='rounded-lg'>
-                            <img src="src/assets/hero-1.jpg" className='w-full h-full object-cover rounded-lg' alt="" />
+                            <img src="./hero-1.jpg" className='w-full h-full object-cover rounded-lg' alt="" />
                         </div>
                     </div>
                      {/* tinggi : 2/3  lebar : full */}
                     <div className='rounded-lg'>
-                        <img src="src/assets/hero-1.jpg" className='w-full h-full object-cover rounded-lg' alt="" />
+                        <img src="./hero-1.jpg" className='w-full h-full object-cover rounded-lg' alt="" />
                     </div>
                 </div>
 

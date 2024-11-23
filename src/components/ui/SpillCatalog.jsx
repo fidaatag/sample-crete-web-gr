@@ -4,19 +4,19 @@ import CardCatalog from "./CardCatalog";
 
 const SpillCatalog = () => {
   const dataCatalog = [
-    { category: "event", title: "Cafe", bgImage: "src/assets/hero-1.jpg" },
-    { category: "event", title: "Sport", bgImage: "src/assets/hero-2.jpg" },
-    { category: "event", title: "Station", bgImage: "src/assets/hero-3.jpg" },
-    { category: "event", title: "Book", bgImage: "src/assets/hero-1.jpg" },
-    { category: "event", title: "Station", bgImage: "src/assets/hero-3.jpg" },
-    { category: "event", title: "Book", bgImage: "src/assets/hero-1.jpg" },
-    { category: "event", title: "Station", bgImage: "src/assets/hero-3.jpg" },
-    { category: "event", title: "Book", bgImage: "src/assets/hero-1.jpg" },
-    { category: "event", title: "Station", bgImage: "src/assets/hero-3.jpg" },
-    { category: "event", title: "Book", bgImage: "src/assets/hero-1.jpg" },
-    { category: "event", title: "Station", bgImage: "src/assets/hero-3.jpg" },
-    { category: "event", title: "Book", bgImage: "src/assets/hero-1.jpg" },
-    { category: "", title: "CARI LAINNYA DISINI", bgImage: "src/assets/hero-2.jpg" },
+    { category: "event", title: "Cafe", bgImage: "./hero-1.jpg" },
+    { category: "event", title: "Sport", bgImage: "./hero-2.jpg" },
+    { category: "event", title: "Station", bgImage: "./hero-3.jpg" },
+    { category: "event", title: "Book", bgImage: "./hero-1.jpg" },
+    { category: "event", title: "Station", bgImage: "./hero-3.jpg" },
+    { category: "event", title: "Book", bgImage: "./hero-1.jpg" },
+    { category: "event", title: "Station", bgImage: "./hero-3.jpg" },
+    { category: "event", title: "Book", bgImage: "./hero-1.jpg" },
+    { category: "event", title: "Station", bgImage: "./hero-3.jpg" },
+    { category: "event", title: "Book", bgImage: "./hero-1.jpg" },
+    { category: "event", title: "Station", bgImage: "./hero-3.jpg" },
+    { category: "event", title: "Book", bgImage: "./hero-1.jpg" },
+    { category: "", title: "CARI LAINNYA DISINI", bgImage: "./hero-2.jpg" },
   ];
 
   const [startIndex, setStartIndex] = useState(0); // Indeks awal

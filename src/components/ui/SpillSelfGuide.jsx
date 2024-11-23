@@ -4,19 +4,19 @@ import CardSelfGuide from "./CardSelfGuide";
 
 const SpillSelfGuide = () => {
   const dataCatalog = [
-    {  desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.", category: "event" , title: "Cafe", bgImage: "src/assets/hero-1.jpg" },
-    {  desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.", category: "event" , title: "Sport", bgImage: "src/assets/hero-2.jpg" },
-    {  desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.", category: "event" , title: "Station", bgImage: "src/assets/hero-3.jpg" },
-    {  desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.", category: "event" , title: "Book", bgImage: "src/assets/hero-1.jpg" },
-    {  desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.", category: "event" , title: "Station", bgImage: "src/assets/hero-3.jpg" },
-    {  desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.", category: "event" , title: "Book", bgImage: "src/assets/hero-1.jpg" },
-    {  desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.", category: "event" , title: "Station", bgImage: "src/assets/hero-3.jpg" },
-    {  desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.", category: "event" , title: "Book", bgImage: "src/assets/hero-1.jpg" },
-    {  desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.", category: "event" , title: "Station", bgImage: "src/assets/hero-3.jpg" },
-    {  desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.", category: "event" , title: "Book", bgImage: "src/assets/hero-1.jpg" },
-    {  desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.", category: "event" , title: "Station", bgImage: "src/assets/hero-3.jpg" },
-    {  desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.", category: "event" , title: "Book", bgImage: "src/assets/hero-1.jpg" },
-    {  desc: "", category: "" , title: "CARI LAINNYA DISINI", bgImage: "src/assets/hero-2.jpg" },
+    {  desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.", category: "event" , title: "Cafe", bgImage: "./hero-1.jpg" },
+    {  desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.", category: "event" , title: "Sport", bgImage: "./hero-2.jpg" },
+    {  desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.", category: "event" , title: "Station", bgImage: "./hero-3.jpg" },
+    {  desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.", category: "event" , title: "Book", bgImage: "./hero-1.jpg" },
+    {  desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.", category: "event" , title: "Station", bgImage: "./hero-3.jpg" },
+    {  desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.", category: "event" , title: "Book", bgImage: "./hero-1.jpg" },
+    {  desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.", category: "event" , title: "Station", bgImage: "./hero-3.jpg" },
+    {  desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.", category: "event" , title: "Book", bgImage: "./hero-1.jpg" },
+    {  desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.", category: "event" , title: "Station", bgImage: "./hero-3.jpg" },
+    {  desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.", category: "event" , title: "Book", bgImage: "./hero-1.jpg" },
+    {  desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.", category: "event" , title: "Station", bgImage: "./hero-3.jpg" },
+    {  desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.", category: "event" , title: "Book", bgImage: "./hero-1.jpg" },
+    {  desc: "", category: "" , title: "CARI LAINNYA DISINI", bgImage: "./hero-2.jpg" },
   ];
 
   const [startIndex, setStartIndex] = useState(0); // Indeks awal

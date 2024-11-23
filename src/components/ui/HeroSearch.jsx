@@ -3,9 +3,9 @@ import { useEffect, useState } from "react";
 
 const HeroSearch = ({children}) => {
     const images = [
-        "src/assets/hero-1.jpg",
-        "src/assets/hero-2.jpg",
-        "src/assets/hero-3.jpg",
+        "./hero-1.jpg",
+        "./hero-2.jpg",
+        "./hero-3.jpg",
     ];
 
     const [currentIndexImg, setCurrentIndexImg] = useState(0);
